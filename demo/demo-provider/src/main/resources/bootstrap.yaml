@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: demo-provider
+  cloud:
+    nacos:
+      config:
+        server-addr: 39.108.110.44:8848
+        file-extension: yaml
+  profiles:
+    active: dev
